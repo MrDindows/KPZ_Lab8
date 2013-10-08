@@ -19,7 +19,7 @@
     A2 = <input type=number name=A2 style="width: 80px;">
     B2 = <input type=number name=B2 style="width: 80px;">
     C2 = <input type=number name=C2 style="width: 80px;">    <br>
-    <input type="submit" value="submit">
+    <input type="submit" value="Рассчитать">
     </form>
     <%
         Object error = request.getAttribute("error");
