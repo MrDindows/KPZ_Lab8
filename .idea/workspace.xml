@@ -15,7 +15,7 @@
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
     <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381267912277" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381309486827" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381309686997" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -682,7 +682,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some fixes+" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -700,6 +700,7 @@
     <MESSAGE value="Fixes in calculate" />
     <MESSAGE value="Fixes depending" />
     <MESSAGE value="Some fixes" />
+    <MESSAGE value="Some fixes+" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

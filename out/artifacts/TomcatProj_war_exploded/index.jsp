@@ -13,6 +13,6 @@
         <title></title>
     </head>
     <body>
-        <a href="http://localhost:8080/Lab6">Шестая робота</a>
+        <a href="http://localhost:8080/Lab6">Шестая лабораторная работа</a>
     </body>
 </html>
