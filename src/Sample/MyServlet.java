@@ -3,15 +3,7 @@ package Sample;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Администратор
- * Date: 08.10.13
- * Time: 16:11
- * To change this template use File | Settings | File Templates.
- */
 public class MyServlet extends javax.servlet.http.HttpServlet
 {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -25,7 +17,7 @@ public class MyServlet extends javax.servlet.http.HttpServlet
             throws IOException, ServletException
     {
         if (request.getParameter("A1")==null ||
-            request.getParameter("B1")==null ||
+                request.getParameter("B1")==null ||
                 request.getParameter("C1")==null ||
                 request.getParameter("A2")==null ||
                 request.getParameter("B2")==null ||
@@ -35,17 +27,14 @@ public class MyServlet extends javax.servlet.http.HttpServlet
             return;
         }
         double A1, B1, C1, A2, B2, C2;
-        try
-        {
+        try {
             A1 = Double.parseDouble(request.getParameter("A1"));
             B1 = Double.parseDouble(request.getParameter("B1"));
             C1 = Double.parseDouble(request.getParameter("C1"));
             A2 = Double.parseDouble(request.getParameter("A2"));
             B2 = Double.parseDouble(request.getParameter("B2"));
             C2 = Double.parseDouble(request.getParameter("C2"));
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             request.setAttribute("error", true);
             request.getRequestDispatcher("calculate.jsp").forward(request, response);
             return;

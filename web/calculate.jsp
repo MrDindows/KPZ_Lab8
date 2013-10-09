@@ -33,18 +33,16 @@
         {
             out.println("<a>Плоскости совпадают</a>");
         }
-        else if (parallel!=null && parallel.equals(true))
-        {
-            out.println("<a>Плоскости параллельны</a>");
-        }
-        else
-        {
-            Object X = request.getAttribute("X");
-            Object Y = request.getAttribute("Y");
-            if (X!=null && Y!=null)
-            {
-                out.println("Прямая пересечения проходит через точку (" + X + ", " + Y + ", 0) " +
-                        "и параллельна оси Z.<br>");
+        else {
+            if (parallel != null && parallel.equals(true)) {
+                out.println("<a>Плоскости параллельны</a>");
+            } else {
+                Object X = request.getAttribute("X");
+                Object Y = request.getAttribute("Y");
+                if (X != null && Y != null) {
+                    out.println("Прямая пересечения проходит через точку (" + X + ", " + Y + ", 0) " +
+                            "и параллельна оси Z.<br>");
+                }
             }
         }
 
