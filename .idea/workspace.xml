@@ -15,8 +15,8 @@
     <file path="/a.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381237998067" ignored="false" />
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
-    <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472765834" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472629515" ignored="false" />
+    <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472873780" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472773708" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.089709766">
+            <state line="3" column="16" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13456464">
               <folding />
             </state>
           </provider>
@@ -836,7 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.089709766">
+        <state line="3" column="16" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13456464">
           <folding />
         </state>
       </provider>
