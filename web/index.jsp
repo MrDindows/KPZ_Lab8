@@ -7,12 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<link rel="stylesheet" type="text/css" href="styles.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 <html>
     <head>
         <title></title>
     </head>
     <body>
-        <a href="http://localhost:8080/Lab6">Шестая лабораторная работа</a>
+        <a class = linkOnMain href="http://localhost:8080/Lab6">Шестая лабораторная работа</a> <br>
+        <a class = linkOnMain href="http://localhost:8080/Lab7">Седьмая лабораторная работа</a> <br>
     </body>
 </html>

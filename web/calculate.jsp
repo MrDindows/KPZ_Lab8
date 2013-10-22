@@ -1,4 +1,4 @@
-<%--
+<%--                                           ;
   Created by IntelliJ IDEA.
   User: Администратор
   Date: 08.10.13
@@ -25,15 +25,11 @@
         Object error = request.getAttribute("error");
         Object match = request.getAttribute("match");
         Object parallel = request.getAttribute("parallel");
-        if (error!=null && error.equals(true))
-        {
+        if (error != null && error.equals(true)) {
             out.println("<a class=\"error\">Введите корректные данные!</a>");
-        }
-        else if (match!=null && match.equals(true))
-        {
+        } else if (match != null && match.equals(true)) {
             out.println("<a>Плоскости совпадают</a>");
-        }
-        else {
+        } else {
             if (parallel != null && parallel.equals(true)) {
                 out.println("<a>Плоскости параллельны</a>");
             } else {
