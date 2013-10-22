@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957b7065-5adc-42c0-a6f1-57a00bf5f45a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/calculate.jsp" afterPath="$PROJECT_DIR$/web/calculate.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style.css" afterPath="$PROJECT_DIR$/web/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -17,8 +15,8 @@
     <file path="/a.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381237998067" ignored="false" />
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
-    <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472361201" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382463832317" ignored="false" />
+    <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472765834" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472629515" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <file leaf-file-name="MyServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="40" selection-start="2520" selection-end="2520" vertical-scroll-proportion="0.0">
+            <state line="60" column="21" selection-start="2199" selection-end="2199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +125,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="107" selection-end="107" vertical-scroll-proportion="0.089709766">
+            <state line="2" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.089709766">
               <folding />
             </state>
           </provider>
@@ -165,8 +163,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Sample/MyServlet.java" />
         <option value="$PROJECT_DIR$/web/calculate.jsp" />
-        <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/style.css" />
       </list>
     </option>
   </component>
@@ -685,7 +683,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fixes+" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -704,6 +702,7 @@
     <MESSAGE value="Fixes depending" />
     <MESSAGE value="Some fixes" />
     <MESSAGE value="Some fixes+" />
+    <MESSAGE value="styles&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,9 +797,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="40" selection-start="2520" selection-end="2520" vertical-scroll-proportion="0.0">
+        <state line="22" column="48" selection-start="817" selection-end="817" vertical-scroll-proportion="-7.6923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
@@ -821,23 +827,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
+    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="817" selection-end="817" vertical-scroll-proportion="-7.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-9.807693">
+        <state line="60" column="21" selection-start="2199" selection-end="2199" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="107" selection-end="107" vertical-scroll-proportion="0.089709766">
+        <state line="2" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.089709766">
           <folding />
         </state>
       </provider>

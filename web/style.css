@@ -1,3 +1,10 @@
 .message { color: green; text-align: center; }
 .error { color: red; text-align: left }
-.linkOnMain { color: yellowgreen; text-align: center;}
+.linkOnMain{
+    color: yellowgreen;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    width:200px;
+    height:200px;
+}
