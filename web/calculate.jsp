@@ -13,12 +13,30 @@
 </head>
 <body>
     <form action="Lab6">
-    A1 = <input type=number name=A1 style="width: 80px;">
-    B1 = <input type=number name=B1 style="width: 80px;">
-    C1 = <input type=number name=C1 style="width: 80px;">    <br>
-    A2 = <input type=number name=A2 style="width: 80px;">
-    B2 = <input type=number name=B2 style="width: 80px;">
-    C2 = <input type=number name=C2 style="width: 80px;">    <br>
+        <label>
+            A1 =
+            <input type= number name= A1 style="width: 80px;">
+        </label>
+        <label>
+            B1 =
+            <input type= number name= B1 style="width: 80px;">
+        </label>
+        <label>
+            C1 =
+            <input type= number name= C1 style="width: 80px;">
+        </label> <br>
+        <label>
+            A2 =
+            <input type= number name= A2 style="width: 80px;">
+        </label>
+        <label>
+            B2 =
+            <input type= number name= B2 style="width: 80px;">
+        </label>
+        <label>
+            C2 =
+            <input type= number name= C2 style="width: 80px;">
+        </label> <br>
     <input type="submit" value="Рассчитать">
     </form>
     <%
