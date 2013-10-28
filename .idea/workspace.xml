@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957b7065-5adc-42c0-a6f1-57a00bf5f45a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/calculate.jsp" afterPath="$PROJECT_DIR$/web/calculate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample/Employee.java" afterPath="$PROJECT_DIR$/src/Sample/Employee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TomcatProj.iws" />
@@ -16,7 +16,7 @@
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
     <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472873780" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382951377306" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382951451915" ignored="false" />
     <file path="/Employee.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382475079624" ignored="false" />
     <file path="/HRManager.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382508505239" ignored="false" />
     <file path="/viewEmployees.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382479543770" ignored="false" />
@@ -99,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculate.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calculate.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="58" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0703125">
+            <state line="35" column="53" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.9615383">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="MyServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="63" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Employee.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sample/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="88" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="1" column="19" selection-start="16" selection-end="16" vertical-scroll-proportion="0.031598512">
               <folding />
             </state>
           </provider>
@@ -156,7 +156,7 @@
       <file leaf-file-name="addEmployee.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="496" selection-end="496" vertical-scroll-proportion="-0.65384614">
+            <state line="36" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -192,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/Sample/LabWork.java" />
         <option value="$PROJECT_DIR$/src/Sample/LabServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/Sample/Employee.java" />
         <option value="$PROJECT_DIR$/web/addEmployee.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/editEmployee.jsp" />
@@ -201,6 +200,7 @@
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/src/Sample/MyServlet.java" />
         <option value="$PROJECT_DIR$/web/calculate.jsp" />
+        <option value="$PROJECT_DIR$/src/Sample/Employee.java" />
       </list>
     </option>
   </component>
@@ -743,7 +743,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="new jsps" />
+    <option name="LAST_COMMIT_MESSAGE" value="fi" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -764,6 +764,7 @@
     <MESSAGE value="Some fixes+" />
     <MESSAGE value="styles&#10;" />
     <MESSAGE value="new jsps" />
+    <MESSAGE value="fi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -812,20 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="88" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="43" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.12">
@@ -842,23 +829,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="496" selection-end="496" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="33" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="63" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -886,7 +859,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="58" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0703125">
+        <state line="35" column="53" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.9615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="25" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sample/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="16" selection-end="16" vertical-scroll-proportion="0.031598512">
           <folding />
         </state>
       </provider>
