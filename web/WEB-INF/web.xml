@@ -14,4 +14,13 @@
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/Lab6</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HRManager</servlet-name>
+        <servlet-class>Sample.HRManager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HRManager</servlet-name>
+        <url-pattern>/Lab7/*</url-pattern>
+    </servlet-mapping>
 </web-app>
