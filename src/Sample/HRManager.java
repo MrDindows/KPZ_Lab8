@@ -20,7 +20,7 @@ import java.util.List;
 @WebServlet(name = "HRManager")
 public class HRManager extends HttpServlet {
 
-    protected List<Employee> Employees;
+    protected List<Employee> employees;
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -45,6 +45,7 @@ public class HRManager extends HttpServlet {
         }
         request.setAttribute("target", target);
         request.setAttribute("path", path);
+		request.setAttribute("employees", employees);
         request.getRequestDispatcher(target).forward(request, response);
     }
 
@@ -52,10 +53,10 @@ public class HRManager extends HttpServlet {
     public void init() throws ServletException {
         super.init();    //To change body of overridden methods use File | Settings | File Templates.
 
-        Employees = new ArrayList<Employee>();
-        Employees.add(new Employee("Пупкин Василий",new Date(),"Женат", "Директор"));
-        Employees.add(new Employee("Зайцев Иван",new Date(),"Не женат", "Разработчик"));
-        Employees.add(new Employee("Пузцов Пётр",new Date(),"В разводе", "Повар"));
-        Employees.add(new Employee("Молодец Александр",new Date(),"Женат", "Дизайнер"));
+        employees = new ArrayList<Employee>();
+        employees.add(new Employee("Пупкин Василий",new Date(),"Женат", "Директор"));
+        employees.add(new Employee("Зайцев Иван", new Date(), "Не женат", "Разработчик"));
+        employees.add(new Employee("Пузцов Пётр", new Date(), "В разводе", "Повар"));
+        employees.add(new Employee("Молодец Александр", new Date(), "Женат", "Дизайнер"));
     }
 }

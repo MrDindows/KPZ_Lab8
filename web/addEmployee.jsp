@@ -17,9 +17,8 @@
 
 <body>
 <h1>Добавить сотрудника</h1>
-<form action = "servlet-parameters" method = "GET">
+<form action = "add" method = "GET">
     <table border = "0">
-
         <tr>
             <td>ФИО</td>
             <td>
@@ -38,6 +37,12 @@
             </td>
         </tr>
 
+        <tr>
+            <td>Дата рождения</td>
+            <td>
+                <input type="date" name="BirthdayDate"/>
+            </td>
+        </tr>
 
         <tr>
             <td>Должность</td>
@@ -54,7 +59,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan = "2"><input type = "submit" value = "Start test"/></td>
+            <td colspan = "2"><input type = "submit" value = "Добавить"/></td>
         </tr>
     </table>
 </form>
