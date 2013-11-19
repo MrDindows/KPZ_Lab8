@@ -3,18 +3,46 @@ package Sample;
 import java.util.Date;
 
 public class Employee {
-    public String Name;
-    public Date BirthdayDate;
-    public String FamilyStatus;
-    public String Position;
-    public Date EnrollmentDate;
+
+	private Integer id;
+    private String name;
+    private Date birthdayDate;
+    private String familyStatus;
+    private String position;
+    private Date enrollmentDate;
+	private static int notUsedId = 1;
 
     public Employee(String name, Date birthdayDate, String familyStatus, String position)
     {
-        Name = name;
-        BirthdayDate = birthdayDate;
-        FamilyStatus = familyStatus;
-        Position = position;
-        EnrollmentDate = new Date();
+		this.id = notUsedId++;
+        this.name = name;
+        this.birthdayDate = birthdayDate;
+        this.familyStatus = familyStatus;
+        this.position = position;
+		this.enrollmentDate = new Date();
     }
+
+	public String getName() {
+		return name;
+	}
+
+	public Date getBirthdayDate() {
+		return birthdayDate;
+	}
+
+	public String getFamilyStatus() {
+		return familyStatus;
+	}
+
+	public String getPosition() {
+		return position;
+	}
+
+	public Date getEnrollmentDate() {
+		return enrollmentDate;
+	}
+
+	public Integer getId() {
+		return id;
+	}
 }

@@ -1,9 +1,12 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
-<%@ taglib prefix="c" uri="java.sun.com/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="Sample.Employee" %>
 <%@ page import="java.util.HashMap" %>
 <%@ page import="java.util.Map" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
 
 <%--
   Created by IntelliJ IDEA.
@@ -12,65 +15,36 @@
   Time: 23:35
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
     <title></title>
 </head>
 <body>
     Path: <%=request.getAttribute("path")%> <br>
-    Target: <%=request.getAttribute("target")%>   <br>
-    <c:out value = "adasdas"/>
-    <%
-        ArrayList<Employee> employees = (ArrayList<Employee>) request.getAttribute("employees");
-        if (employees == null)
-        {
-            out.println("FUCK");
-        }
-        else
-        {
-            for (Employee employee : employees)
-            {
-                out.println("LOL" + employee.Name);
-            }
-        }
-    %>
-    <c:forEach var="person" items="${pageScope.employees}">
-        LAL
-        <tr>
-            <td>${person.Name}</td>
-            <td>${person.FamilyStatus}</td>
-            <td>${person.EnrollmentDate}</td>
-        </tr>
+    Target: <%=request.getAttribute("target")%><br>
 
+    <% SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy");%>
+
+    <jsp:useBean id="employees" scope="request" type="java.util.List<Sample.Employee>"/>
+    <table border="1">
+        <tr>
+            <td><div class="column_caption">ФИО</div></td>
+            <td><div class="column_caption">Дата рождения</div></td>
+            <td><div class="column_caption">Семейное положение</div></td>
+            <td><div class="column_caption">Дата приёма на работу</div></td>
+            <td><div class="column_caption">Должность</div></td>
+        </tr>
+    <c:forEach var="person" items="${employees}">
+        <tr>
+            <jsp:useBean id="person" scope="page" type="Sample.Employee"/>
+            <td>${person.name}</td>
+            <td><%=dateFormat.format(person.getBirthdayDate())%></td>
+            <td>${person.familyStatus}</td>
+            <td><%=dateFormat.format(person.getEnrollmentDate())%></td>
+            <td>${person.position}</td>
+        </tr>
     </c:forEach>
-    <%
-        // Create an ArrayList with test data
-        ArrayList list = new ArrayList();
-        Map author1 = new HashMap();
-        author1.put("name", "A");
-        author1.put("id", new Integer(1));
-        list.add(author1);
-        Map author2 = new HashMap();
-        author2.put("name", "B");
-        author2.put("id", new Integer(2));
-        list.add(author2);
-        Map author3 = new HashMap();
-        author3.put("name", "C");
-        author3.put("id", new Integer(3));
-        list.add(author3);
-        pageContext.setAttribute("authors", list);
-    %>
-    <br>
-    Here are all authors matching your search critera:
-    <table>
-        <TH>Name</th>
-        <TH>Id</th>
-        <c:forEach items="${authors}" var="current">
-            <tr>
-                <td><c:out value="${current.name}" /><td>
-                <td><c:out value="${current.id}" /><td>
-            </tr>
-        </c:forEach>
     </table>
 </body>
 </html>
