@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957b7065-5adc-42c0-a6f1-57a00bf5f45a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample/Employee.java" afterPath="$PROJECT_DIR$/src/Sample/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addEmployee.jsp" afterPath="$PROJECT_DIR$/web/addEmployee.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TomcatProj.iws" />
@@ -16,11 +16,12 @@
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
     <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382472873780" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382951451915" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1384850682464" ignored="false" />
     <file path="/Employee.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382475079624" ignored="false" />
     <file path="/HRManager.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382508505239" ignored="false" />
-    <file path="/viewEmployees.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382479543770" ignored="false" />
+    <file path="/viewEmployees.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1384763987102" ignored="false" />
     <file path="/editEmployee.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1382478254477" ignored="false" />
+    <file path="/addEmployee.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1384894985756" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,6 +72,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,16 +85,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="18" column="29" selection-start="565" selection-end="565" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -102,7 +94,7 @@
       <file leaf-file-name="calculate.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="53" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.9615383">
+            <state line="7" column="32" selection-start="231" selection-end="245" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -111,7 +103,7 @@
       <file leaf-file-name="MyServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="12" column="45" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +112,16 @@
       <file leaf-file-name="HRManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="25" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+            <state line="28" column="49" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="16" selection-end="16" vertical-scroll-proportion="0.031598512">
+            <state line="17" column="22" selection-start="440" selection-end="454" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,7 +130,7 @@
       <file leaf-file-name="viewEmployees.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/viewEmployees.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="408" selection-end="408" vertical-scroll-proportion="-11.769231">
+            <state line="15" column="3" selection-start="374" selection-end="374" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -147,16 +139,16 @@
       <file leaf-file-name="editEmployee.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/editEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.6153846">
+            <state line="12" column="25" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addEmployee.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="addEmployee.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-7.8461537">
+            <state line="21" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.28313252">
               <folding />
             </state>
           </provider>
@@ -192,15 +184,15 @@
         <option value="$PROJECT_DIR$/src/Sample/LabWork.java" />
         <option value="$PROJECT_DIR$/src/Sample/LabServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/addEmployee.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/editEmployee.jsp" />
-        <option value="$PROJECT_DIR$/web/viewEmployees.jsp" />
         <option value="$PROJECT_DIR$/src/Sample/HRManager.java" />
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/src/Sample/MyServlet.java" />
         <option value="$PROJECT_DIR$/web/calculate.jsp" />
         <option value="$PROJECT_DIR$/src/Sample/Employee.java" />
+        <option value="$PROJECT_DIR$/web/viewEmployees.jsp" />
+        <option value="$PROJECT_DIR$/web/addEmployee.jsp" />
       </list>
     </option>
   </component>
@@ -259,7 +251,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -335,6 +326,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -683,7 +675,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2969697" sideWeight="0.24273504" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3060606" sideWeight="0.16752137" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28333333" sideWeight="0.24102564" order="3" side_tool="true" content_ui="tabs" />
@@ -691,8 +683,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.275" sideWeight="0.22051282" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2969697" sideWeight="0.757265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.49318182" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3060606" sideWeight="0.52307695" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.49318182" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,21 +762,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="46" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
@@ -813,81 +800,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.12">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="33" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="-10.461538">
+        <state line="28" column="49" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/viewEmployees.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="408" selection-end="408" vertical-scroll-proportion="-11.769231">
+        <state line="15" column="3" selection-start="374" selection-end="374" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="696" selection-end="705" vertical-scroll-proportion="-10.36">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="565" selection-end="565" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/editEmployee.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.6153846">
+        <state line="12" column="25" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="53" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.9615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="936" column="2" selection-start="25242" selection-end="25280" vertical-scroll-proportion="0.20481928">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sample/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="16" selection-end="16" vertical-scroll-proportion="0.031598512">
+        <state line="17" column="22" selection-start="440" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sample/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="231" selection-end="245" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.28313252">
           <folding />
         </state>
       </provider>
