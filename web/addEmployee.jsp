@@ -17,8 +17,8 @@
 
 <body>
 <h1>Добавить сотрудника</h1>
-<form action = "add" method = "GET">
-    <table border = "0">
+<form action = "add" method = "post">
+    <div class="datagrid"><table border = "0">
         <tr>
             <td>ФИО</td>
             <td>
@@ -61,7 +61,7 @@
         <tr>
             <td colspan = "2"><input type = "submit" value = "Добавить"/></td>
         </tr>
-    </table>
+    </table></div>
 </form>
 </body>
 </html>
