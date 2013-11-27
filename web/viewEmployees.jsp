@@ -1,19 +1,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="Sample.Employee" %>
-<%@ page import="java.util.HashMap" %>
-<%@ page import="java.util.Map" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 
 
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style.css"/>
 
 <%--
   Created by IntelliJ IDEA.
   User: Администратор
   Date: 22.10.13
   Time: 23:35
-  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
@@ -21,10 +16,8 @@
     <title></title>
 </head>
 <body>
-    Path: <%=request.getAttribute("path")%> <br>
-    Target: <%=request.getAttribute("target")%><br>
 
-    <% SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy");%>
+    <% SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");%>
 
     <jsp:useBean id="employees" scope="request" type="java.util.List<Sample.Employee>"/>
     <div class="datagrid"><table>
@@ -47,13 +40,13 @@
                     <td>${person.familyStatus}</td>
                     <td><%=dateFormat.format(person.getEnrollmentDate())%></td>
                     <td>${person.position}</td>
-                    <td><a href=<%="\"Lab7/edit?id="+person.getId()+"\""%>>Изменить</a></td>
+                    <td><a href=<%="/Lab7/edit?id="+person.getId()%>>Изменить</a></td>
                 </tr>
             </c:forEach>
         </tbody>
-        <tfoot><tr class = <%=(i++%2==1)?"alt":""%>>
+        <tfoot><tr class = <%=(i%2==1)?"alt":""%>>
             <td colspan="6">
-                <div id="paging"><ul><li><a href="Lab7/add"><span>Добавить</span></a></li></ul></div>
+                <div id="paging"><ul><li><a href="${pageContext.request.contextPath}/Lab7/add"><span>Добавить</span></a></li></ul></div>
             </td>
         </tr></tfoot>
     </table></div>

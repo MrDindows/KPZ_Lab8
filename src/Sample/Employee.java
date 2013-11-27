@@ -45,4 +45,24 @@ public class Employee {
 	public Integer getId() {
 		return id;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setBirthdayDate(Date date) {
+		this.birthdayDate = date;
+	}
+
+	public void setFamilyStatus(String status) {
+		this.familyStatus = status;
+	}
+
+	public void setPosition(String position) {
+		this.position = position;
+	}
+
+	public void setEnrollmentDate(Date date) {
+		this.enrollmentDate = enrollmentDate;
+	}
 }

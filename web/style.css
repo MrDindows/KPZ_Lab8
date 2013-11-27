@@ -41,12 +41,13 @@
 .datagrid table tfoot  li { display: inline; }
 .datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;
     color: #FFFFFF;border: 1px solid #36752D;-webkit-border-radius: 3px; -moz-border-radius: 3px;
-    border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D),
-    color-stop(1, #275420) );background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D),color-stop(1, #275420) );
+    background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
     background-color:#36752D;
 }
-.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover {
+.datagrid table tbody ul.active, .datagrid table tfoot ul a:hover {
     text-decoration: none;border-color: #275420; color: #FFFFFF; background: none; background-color:#36752D;
 }
 .datagrid a {
@@ -54,4 +55,13 @@
 }
 .datagrid a:visited {
     color: #1a8b59;
+}
+.button {
+    text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;
+    color: #FFFFFF; border: 1px solid #36752D; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420) );
+    background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+    background-color:#36752D;
 }
