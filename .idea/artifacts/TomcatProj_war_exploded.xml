@@ -7,7 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="TomcatProj" />
         </element>
-        <element id="directory" name="lib" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="jsp-api" />
+        </element>
       </element>
     </root>
   </artifact>
