@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957b7065-5adc-42c0-a6f1-57a00bf5f45a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample/Employee.java" afterPath="$PROJECT_DIR$/src/Sample/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample/HRManager.java" afterPath="$PROJECT_DIR$/src/Sample/HRManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addEmployee.jsp" afterPath="$PROJECT_DIR$/web/addEmployee.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/calculate.jsp" afterPath="$PROJECT_DIR$/web/calculate.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/editEmployee.jsp" afterPath="$PROJECT_DIR$/web/editEmployee.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style.css" afterPath="$PROJECT_DIR$/web/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/viewEmployees.jsp" afterPath="$PROJECT_DIR$/web/viewEmployees.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TomcatProj.iws" />
@@ -23,9 +15,9 @@
     <file path="/MyServlet.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381268287067" ignored="false" />
     <file path="/calculate.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1381272904706" ignored="false" />
     <file path="/style.css" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385377896875" ignored="false" />
-    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385530408164" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385531739350" ignored="false" />
     <file path="/Employee.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385505206121" ignored="false" />
-    <file path="/HRManager.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385506339883" ignored="false" />
+    <file path="/HRManager.java" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385532465454" ignored="false" />
     <file path="/viewEmployees.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1384941583497" ignored="false" />
     <file path="/editEmployee.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385506156948" ignored="false" />
     <file path="/addEmployee.jsp" changelist="957b7065-5adc-42c0-a6f1-57a00bf5f45a" time="1385502554819" ignored="false" />
@@ -93,7 +85,7 @@
       <file leaf-file-name="HRManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="63" selection-start="0" selection-end="4521" vertical-scroll-proportion="0.0">
+            <state line="59" column="35" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,16 +93,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editEmployee.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="editEmployee.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/editEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="40" selection-start="0" selection-end="3588" vertical-scroll-proportion="-21.961538">
+            <state line="104" column="7" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.91122717">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
             <state />
@@ -119,7 +111,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37918216">
+            <state line="17" column="30" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.56">
               <folding />
             </state>
           </provider>
@@ -176,16 +168,7 @@
       <file leaf-file-name="calculate.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="51" column="17" selection-start="1651" selection-end="1651" vertical-scroll-proportion="-5.576923">
               <folding />
             </state>
           </provider>
@@ -725,7 +708,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -735,18 +718,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5037879" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24242425" sideWeight="0.24273504" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28333333" sideWeight="0.24102564" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.275" sideWeight="0.22051282" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.76480263" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32307693" sideWeight="0.49621212" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.75" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49621212" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -821,11 +804,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -853,23 +831,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="1" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -888,15 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="63" selection-start="0" selection-end="4521" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/viewEmployees.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="38" selection-start="0" selection-end="1836" vertical-scroll-proportion="-15.038462">
@@ -911,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/editEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="40" selection-start="0" selection-end="3588" vertical-scroll-proportion="-21.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -926,12 +874,49 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37918216">
+        <state line="17" column="30" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.56">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="1" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/tomcat/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="52" selection-start="1326" selection-end="1326" vertical-scroll-proportion="2.1913748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sample/HRManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/calculate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="17" selection-start="1651" selection-end="1651" vertical-scroll-proportion="-5.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="7" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.91122717">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

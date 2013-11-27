@@ -4,6 +4,7 @@
            xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
            version="2.5">
+
     <servlet>
         <description>Description</description>
         <display-name>Name</display-name>
@@ -13,5 +14,14 @@
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/Lab6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HRManager</servlet-name>
+        <servlet-class>Sample.HRManager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HRManager</servlet-name>
+        <url-pattern>/Lab7/*</url-pattern>
     </servlet-mapping>
 </web-app>
