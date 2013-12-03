@@ -1,4 +1,4 @@
-/*.message { color: green; text-align: center; }
+.message { color: green; text-align: center; }
 .error { color: #ff1f11; text-align: left }
 .linkOnMain{
     color: yellowgreen;
@@ -64,4 +64,4 @@
     background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
     background-color: #ff97f4;
-}                       */
+}
